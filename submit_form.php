@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Activity for Form Handling</h1>
+
+    <?php
+        $name = $_POST['name'];
+        $age = $_POST['age'];
+        $gender = $_POST['gender'];
+
+        echo"<p>Wazzap $name!</p>";
+
+        if ($gender == 'male')
+        {
+            if ( $age >= 1 and $age <= 12)
+            {
+                echo 'You are still a little boy';
+            }
+            elseif ( $age >= 13 and $age <= 19 )
+            {
+                echo 'You are already a teenager';
+            }
+            elseif ( $age >= 20 and $age <= 59 )
+            {
+                echo 'You are a gentleman';
+            }
+            else
+            {
+                echo 'You are already an old man';
+            }
+        }
+        else
+        {
+            if ( $age >= 1 and $age <= 12)
+            {
+                echo 'You are still a little girl';
+            }
+            elseif ( $age >= 13 and $age <= 19 )
+            {
+                echo 'You are already a teenager';
+            }
+            elseif ( $age >= 20 and $age <= 59 )
+            {
+                echo 'You are a woman';
+            }
+            else
+            {
+                echo 'You are already an old woman';
+            }
+        }
+
+    ?>
+</body>
+</html>
