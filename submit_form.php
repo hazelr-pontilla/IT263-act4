@@ -19,38 +19,38 @@
         {
             if ( $age >= 1 and $age <= 12)
             {
-                echo 'You are still a little boy';
+                echo 'You are still a little boy.';
             }
             elseif ( $age >= 13 and $age <= 19 )
             {
-                echo 'You are already a teenager';
+                echo 'You are already a teenager.';
             }
             elseif ( $age >= 20 and $age <= 59 )
             {
-                echo 'You are a gentleman';
+                echo 'You are a gentleman.';
             }
             else
             {
-                echo 'You are already an old man';
+                echo 'You are already an old man.';
             }
         }
         else
         {
             if ( $age >= 1 and $age <= 12)
             {
-                echo 'You are still a little girl';
+                echo 'You are still a little girl.';
             }
             elseif ( $age >= 13 and $age <= 19 )
             {
-                echo 'You are already a teenager';
+                echo 'You are already a teenager.';
             }
             elseif ( $age >= 20 and $age <= 59 )
             {
-                echo 'You are a woman';
+                echo 'You are a woman.';
             }
             else
             {
-                echo 'You are already an old woman';
+                echo 'You are already an old woman.';
             }
         }
 
