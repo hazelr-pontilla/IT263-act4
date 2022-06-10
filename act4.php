@@ -10,7 +10,7 @@
 <body>
     <h1>Activity for Form Handling</h1>
 
-    <form action="act4-submit_form.php" method="post">
+    <form action="submit_form.php" method="post">
         <p>Name: <br> <input type="text" name="name"></p>
         <p>Age: <br> <input type="text" name="age"></p>
         <p>Gender: <br>

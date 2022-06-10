@@ -15,8 +15,6 @@
         $age = $_POST['age'];
         $gender = $_POST['gender'];
 
-        echo"<p>Wazzap $name!</p>";
-
         if ($gender == 'male')
         {
             if ( $age >= 1 and $age <= 12)
